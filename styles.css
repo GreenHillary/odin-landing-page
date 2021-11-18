@@ -1,6 +1,49 @@
-.container {
+#header {
     background: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero {
+    background: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info {
+    background: white;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    background: #3882F6;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    background: #1f2937;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
