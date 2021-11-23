@@ -56,10 +56,21 @@
     justify-content: center;
 }
 
-#button {
+.button {
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button div {
     background: #3882F6;
     color: white;
     display: flex;
+    margin: 16px;
+    padding: 16px;
+    gap: 8px;
     align-items: center;
     justify-content: center;
 }
