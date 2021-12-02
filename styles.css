@@ -8,12 +8,21 @@
     justify-content: center;
 }
 
-#hero {
+.hero {
     background: #1f2937;
     color: #F9FAF8;
     width: auto;
     height: 300px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero div {
+    background: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    margin: 60px;
     align-items: center;
     justify-content: center;
 }
@@ -84,7 +93,7 @@
     gap: 8px;
     width: 500px;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 #footer {
